@@ -1,4 +1,3 @@
-import profileImage from "../assets/jayanth.jpeg";
 import { useEffect, useState, useRef } from "react";
 import { motion, useInView } from "motion/react";
 import { Code, Layers, Milestone, Award, Github, CheckCircle2 } from "lucide-react";
@@ -98,8 +97,8 @@ export default function AboutSection() {
   {/* Tech vector/symbol art overlay */}
   <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/40 to-transparent z-10" />
 
-  <img
-  src={profileImage}
+ <img
+  src="/jayanth/assets/jayanth.jpeg"
   alt="N.Jayanth - AI Engineer"
   className="w-full h-full object-cover group-hover:scale-105 transition-all duration-700"
   loading="eager"
